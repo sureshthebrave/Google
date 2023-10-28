@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="icon" href="images/2.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a
+          href="https://mail.google.com/mail/?tab=rm&ogbl"
+          style="text-decoration: none; color: black"
+        >
+          <li class="section1">Gmail</li>
+        </a>
+        <a
+          href="https://www.google.com/imghp?hl=en&tab=ri&ogbl"
+          style="text-decoration: none; color: black"
+        >
+          <li class="section1">Images</li>
+        </a>
+        <a href="#" style="text-decoration: none; color: black">
+          <li class="material-symbols-outlined apps">apps</li>
+        </a>
+      </nav>
+
+      <div class="container">
+        <div class="logo">
+          <img src="images/googlelogo.png" alt="" />
+        </div>
+      </div>
+
+      <div class="container">
+        <input type="text" autofocus class="query" />
+        <span class="search"> <i class="bi bi-search w-20"></i></span>
+        <a href="#">
+          <img
+            src="images/Google_mic.svg.png"
+            alt=""
+            width="15px"
+            class="mic"
+          />
+        </a>
+      </div>
+      <a href="#">
+        <img
+          src="images/Google_Lens_-_new_logo.png"
+          alt=""
+          width="25px"
+          class="lens"
+      /></a>
+      <button onclick="search()">Google Search</button
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button onclick="doodles()" class="feel">I'm Feeling Lucky</button>
+    </div>
+    <br /><br /><br /><br />
+    <p style="font-size: 14px; text-align: center; margin-top: -14px">
+      Google offered in:&nbsp;&nbsp;
+      <a href="#" style="text-decoration: none">
+        हिन्दी &nbsp;&nbsp;বাংলা&nbsp;&nbsp;తెలుగు&nbsp;&nbsp; मराठी
+        &nbsp;&nbsp;தமிழ்&nbsp;&nbsp; ગુજરાતી &nbsp;&nbsp;ಕನ್ನಡ
+        &nbsp;&nbsp;മലയാളം&nbsp;&nbsp; ਪੰਜਾਬੀ
+      </a>
+    </p>
+    <br /><br /><br /><br /><br /><br />
+
+    <div class="container f">
+      &nbsp;&nbsp;
+      <p style="font-size: 16px; margin-left: 20px; opacity: 0.66">India</p>
+      &nbsp;&nbsp;
+      <hr style="opacity: 0.66" />
+      <div class="col" style="margin-top: 10px;">
+      <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1" style="text-decoration: none; color: black; opacity: 0.66"
+        >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" style="text-decoration: none; color: black; opacity: 0.66"
+            >Advertising</a
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+            href="https://www.google.com/intl/en_in/business/"
+            style="text-decoration: none; color: black; opacity: 0.66"
+            >Business</a
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.google.com/search/howsearchworks/?fg=1" style="text-decoration: none; color: black; opacity: 0.66"
+            >How Search work</a
+          >
+          <span style="margin-left: 650px"
+            ><a
+              href="https://policies.google.com/privacy?hl=en-IN&fg=1"
+              style="text-decoration: none; color: black; opacity: 0.66"
+              >Privacy</a
+            >&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href="https://policies.google.com/terms?hl=en-IN&fg=1"
+              style="text-decoration: none; color: black; opacity: 0.66"
+              >Terms</a
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href=""
+              style="text-decoration: none; color: black; opacity: 0.66" 
+              >Settting
+              </a
+            ></span
+          ></div>
+        <!-- </div> -->
+    </div>
+    <script src="script.js"></script>
+    <!-- <script>
+      function search() {
+        let query = document.querySelector(".query").value;
+        return (window.location = "https://www.google.com/search?q=" + query);
+      }
+    </script> -->
+  </body>
+</html>

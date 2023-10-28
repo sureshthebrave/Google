@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+nav {
+    display: flex;
+    margin-left: 82%;
+    /* height: 7vh; */
+    margin-top: 5px;
+}
+
+
+li{
+    list-style: none;
+    padding-left:20px ;
+}
+
+.section1:hover
+{
+    text-decoration: underline;
+}
+nav a li{
+    margin-top: 20px;
+}
+
+.apps
+{
+    position: relative;
+    top: -2px;
+}
+
+
+
+.logo
+{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+input{
+    margin-top: 20px;
+    margin-left: 340px;
+    width: 580px;
+    border-radius: 100px;
+    padding: 10px;
+    height: 48px;
+    outline: none;
+    border: 1px solid rgba(69, 67, 67, 0.272);
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.search
+{
+    margin-left: -560px;
+    opacity: 0.44;
+}
+ .mic
+{
+    position: relative;
+    left: 450px;
+    top: 4px;
+}
+
+
+.lens
+{
+    position: relative;
+    left: 870px;
+    top: -38px;
+}
+button
+{
+    background-color:rgba(189, 186, 186, 0.129);
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 12px;
+    position: relative;
+    left: 500px;
+    top: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.f
+{
+    background-color: rgba(0, 0, 0, 0.064);
+    height: 104px;
+    margin-top: 8px;
+}
